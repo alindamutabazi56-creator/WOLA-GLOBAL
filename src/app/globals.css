@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-brand-cream text-brand-charcoal antialiased;
+}
+
+.texture {
+  background-image: radial-gradient(circle at 1px 1px, rgba(198,162,93,0.16) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #C6A25D;
+  outline-offset: 2px;
+}
