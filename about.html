@@ -10,7 +10,9 @@
   <body>
     <header class="hero" id="top">
       <div class="pattern-band" aria-hidden="true"></div>
-      <nav class="navbar container">
+      <div class="hero-map" aria-hidden="true"></div>
+      <div class="hero-network" aria-hidden="true"></div>
+      <nav class="navbar container fade-in">
         <a href="index.html" class="brand" aria-label="WOLA GLOBAL Home">
           <img src="assets/logo.svg" alt="WOLA logo" class="brand-logo" />
           <span>WOLA GLOBAL</span>
@@ -23,7 +25,7 @@
         </div>
       </nav>
 
-      <section class="hero-content container">
+      <section class="hero-content container fade-in">
         <p class="kicker">Women Leaders of Afrika</p>
         <p class="welcome">Welcome to WOLA</p>
         <h1>Purpose and direction of WOLA GLOBAL.</h1>
@@ -32,13 +34,13 @@
     </header>
 
     <main>
-      <section class="section section-alt" id="mission-vision">
+      <section class="section section-alt fade-in" id="mission-vision">
         <div class="container">
           <h2>Mission & Vision</h2>
           <div class="grid two-col">
             <article class="card">
               <h3>Mission</h3>
-              <p>
+              <p class="max-w-2xl">
                 To equip young African women with the tools, confidence, and networks needed to grow into
                 positions of influence, while building safe, inclusive communities that nurture leadership,
                 collaboration, and impact.
@@ -46,7 +48,7 @@
             </article>
             <article class="card">
               <h3>Vision</h3>
-              <p>
+              <p class="max-w-2xl">
                 A future where African women lead boldly across sectors, brain drain is reversed through
                 purposeful local contribution, and collective talent drives sustainable development for Africa.
               </p>
@@ -55,9 +57,9 @@
         </div>
       </section>
 
-      <section class="section container" id="background">
+      <section class="section container fade-in" id="background">
         <h2>1.0 Background</h2>
-        <p>
+        <p class="max-w-2xl">
           Africa faces the persistent challenge of brain drain, where highly skilled young people leave
           the continent to pursue opportunities abroad, weakening local capacity for innovation and development.
           Alongside this is a pressing leadership gap; across sectors, women remain significantly underrepresented
@@ -69,10 +71,10 @@
         </p>
       </section>
 
-      <section class="section section-alt" id="introduction">
+      <section class="section section-alt fade-in" id="introduction">
         <div class="container">
           <h2>2.0 Introduction</h2>
-          <p>
+          <p class="max-w-2xl">
             WOLA is a student-led initiative founded to equip young African women with the tools, confidence,
             and networks needed to assume positions of influence across sectors, through its tiered structure:
             social community, self-actualisation, and community development. WOLA fosters leadership from within,
@@ -81,9 +83,9 @@
         </div>
       </section>
 
-      <section class="section container" id="objectives">
+      <section class="section container fade-in" id="objectives">
         <h2>3.0 Objectives</h2>
-        <ul class="bullet-list">
+        <ul class="bullet-list max-w-2xl">
           <li>To provide a safe and inclusive environment where African women can share experiences and challenges freely.</li>
           <li>To build leadership and professional skills through training, mentorship, and practical initiatives.</li>
           <li>To connect African women across universities and communities, fostering collaboration and unity.</li>
@@ -92,19 +94,19 @@
         </ul>
       </section>
 
-      <section class="section section-alt" id="target">
+      <section class="section section-alt fade-in" id="target">
         <div class="container">
           <h2>4.0 Target</h2>
-          <ul class="bullet-list">
+          <ul class="bullet-list max-w-2xl">
             <li><strong>Primary:</strong> Young African women studying in universities across the diaspora and Africa.</li>
             <li><strong>Secondary:</strong> Broader African student communities, partner organisations, and allies who support women’s empowerment and leadership.</li>
           </ul>
         </div>
       </section>
 
-      <section class="section container" id="activities">
+      <section class="section container fade-in" id="activities">
         <h2>5.0 Activities</h2>
-        <ul class="bullet-list">
+        <ul class="bullet-list max-w-2xl">
           <li>Hosting dialogues and fireside chats on critical issues (e.g. femicide, leadership, mental health, education, economic issues).</li>
           <li>Leadership and skills workshops tailored to members’ personal and professional growth.</li>
           <li>Collaborative projects with foundations, NGOs, and community groups addressing African women’s needs.</li>
@@ -115,10 +117,14 @@
       </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer fade-in">
       <div class="container footer-inner">
         <p>© <span id="year"></span> WOLA GLOBAL — Women Leaders of Afrika</p>
-        <a href="index.html">Back to homepage ↑</a>
+        <div class="footer-links">
+          <a href="index.html">🏠 Home</a>
+          <a href="#mission-vision">✨ Mission</a>
+          <a href="https://github.com" target="_blank" rel="noreferrer">🐙 GitHub</a>
+        </div>
       </div>
     </footer>
 
