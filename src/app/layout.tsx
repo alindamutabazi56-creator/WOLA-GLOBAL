@@ -1,8 +1,6 @@
 import type { Metadata } from 'next';
 import { Inter, Playfair_Display } from 'next/font/google';
 import './globals.css';
-import { Navbar } from '@/components/navbar';
-import { Footer } from '@/components/footer';
 import { siteConfig } from '@/lib/site';
 import { JsonLd } from '@/components/json-ld';
 
@@ -30,9 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             description: siteConfig.description
           }}
         />
-        <Navbar />
         <main>{children}</main>
-        <Footer />
       </body>
     </html>
   );
