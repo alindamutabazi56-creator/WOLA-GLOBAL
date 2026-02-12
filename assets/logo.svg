@@ -1,0 +1,23 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="WOLA Global logo">
+  <defs>
+    <style>
+      .serif { font-family: 'Times New Roman', Georgia, serif; }
+    </style>
+  </defs>
+
+  <circle cx="256" cy="256" r="250" fill="#ddd2c9" stroke="#f2eee8" stroke-width="4"/>
+
+  <text x="40" y="295" class="serif" font-size="165" font-weight="700" fill="#3f0a57" letter-spacing="2">W</text>
+  <text x="214" y="295" class="serif" font-size="165" font-weight="700" fill="#3f0a57" letter-spacing="2">L</text>
+  <text x="395" y="295" class="serif" font-size="165" font-weight="700" fill="#3f0a57" letter-spacing="2">A</text>
+
+  <g transform="translate(190 162)">
+    <path d="M34 2 L62 18 L72 40 L67 63 L81 82 L76 111 L54 139 L48 166 L29 168 L12 152 L5 124 L2 93 L0 60 L10 34 Z"
+      fill="#b39a48" stroke="#3f0a57" stroke-width="2.2"/>
+    <path d="M61 9 L85 4 L72 22 L90 23 L76 35 L59 33 Z" fill="#b39a48" stroke="#3f0a57" stroke-width="2.2"/>
+    <path d="M20 159 L38 177 L62 188 L42 204 L21 196 L8 175 Z" fill="#b39a48" stroke="#3f0a57" stroke-width="2.2"/>
+    <path d="M20 54 L35 58 L50 63 L40 70 L22 66 Z" fill="#3f0a57" opacity="0.9"/>
+  </g>
+
+  <text x="256" y="367" class="serif" text-anchor="middle" font-size="47" fill="#1f1721">Women Leaders of Afrika</text>
+</svg>
